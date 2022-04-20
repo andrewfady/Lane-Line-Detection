@@ -525,7 +525,7 @@ input=sys.argv
 
 clip1 = VideoFileClip(input[1])
 video_output =input[2]
-debug_mode=input[3]
+debug_mode=int(input[3])
 
 if debug_mode:
     output_clip = clip1.fl_image(process_image_debug) #NOTE: this function expects color images!!
