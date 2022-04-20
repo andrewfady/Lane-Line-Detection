@@ -1,0 +1,7 @@
+ipython
+matplotlib
+moviepy
+numpy
+opencv_python
+Pillow
+SQLAlchemy
